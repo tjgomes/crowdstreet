@@ -11,7 +11,7 @@ describe("SignUp Workflow", () => {
     cy.url().should('include', Cypress.config().baseUrl);
   })
   
-  it("should login with invalid credentials and assert login fails", () => {
+  it("should create an account", () => {
     const email = USERS.USERS.email+randomNumber(3);    
   
     cy.contains('Create An Account').click({force:true})
