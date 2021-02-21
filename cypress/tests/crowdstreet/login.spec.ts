@@ -2,16 +2,6 @@ import {USERS} from "../../fixtures/user/user.js";
 
 describe("SignUp Workflow", () => {
 
-  // const getIframeBody = () => {
-  //   return cy
-  //   .get('iframe[role="presentation"]')
-  //   .its('0.contentDocument').should('exist').then((el) => {
-  //     return cy.wrap(el).its('body').should('not.be.undefined')
-  //     .then(cy.wrap);
-
-  //   });
-  // }
-  
   const randomNumber = (len = 7) => {
     return Math.floor(Math.random() * 10 ** len);
   }
