@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": "../node_modules",
+    "target": "es2018",
+    "lib": ["es7", "dom"],
+    "types": ["cypress", "cypress-file-upload"],
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["**/*.ts"]
+}
